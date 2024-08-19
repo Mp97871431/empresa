@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+:root{
+    --cor01:#18A1D1;
+    --cor02:#333CFA;
+    --cor03:#111452;
+    --cor04:darkgrey;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+header{
+    background-image: linear-gradient(to top, var(--cor03), var(--cor02));
+    min-height: 150px;  
+}
+header > h1{
+    text-align: center;
+    font-size: 3em;
+    color: var(--cor04);
+    margin: auto;
+}
+header > p{
+    text-align: center;
+    color: var(--cor04);
+    font-size: 1.5em;
+    max-width: 600px;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin: auto;
+     padding-bottom: 20px;
+} 
+header >div.tt{
+    padding-top: 15px;
+    text-align: center;
+}
+nav{
+    padding: 5px;
+    font-size: 1.5em;
+}
+nav >a{
+    text-decoration: none;
+    color: var(--cor01);
+    padding:10px ;
+}
+nav > a:hover{
+    background-color: var(--cor03);
+    border-radius:5px ;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+main{
+    margin: 10px;
+    padding: 10px;
+}
+main >div.c1{
+    display: inline;
+    margin-bottom: 10px;
+}
+main >div.c2{
+    display: inline;
+    margin-bottom: 10px;
+}
+main >h1{
+    font-size: 2.5em;
+    background-image: linear-gradient(to right, var(--cor04), transparent);
+}
+main > p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 15px;
+    font-size: 1.1em;
+}
+main a{
+   text-decoration: none;
+   color: var(--cor01);
+}
+main a:hover{
+    background-color: var(--cor04);
+    color: var(--cor03);
+    text-decoration: underline;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 5px;
+}
+main img{
+    max-width: 1000px;
+}
+div.vidio{
+    background-color: var(--cor02);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.vidio > iframe{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}    
+footer{
+    background-image: linear-gradient(to top, var(--cor03), var(--cor02));
+    padding: 10px;
+    color: var(--cor04);
+}
+footer > p{
+    text-align: center;
+    font-size: 1.3em;
+}
+li >div.w{
+    display: block;
+}
+li >div.i{
+    display: block;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor04);
+    padding: 10px;
+}
+
